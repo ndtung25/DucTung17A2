@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <studentID>SV001</studentID>
+        <name>Nguyễn Văn A</name>
+        <birthYear>2005</birthYear>
+        <class>DHKL17A2</class>
+        <gender>Nam</gender>
+    </student>
+    <student>
+        <studentID>SV002</studentID>
+        <name>Trần Thị B</name>
+        <birthYear>2005</birthYear>
+        <class>DHKL17A1</class>
+        <gender>Nữ</gender>
+    </student>
+    <student>
+        <studentID>SV003</studentID>
+        <name>Lê Văn C</name>
+        <birthYear>2004</birthYear>
+        <class>DHKL16A3</class>
+        <gender>Nam</gender>
+    </student>
+</students>

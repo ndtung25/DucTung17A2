@@ -1,0 +1,4 @@
+JSON (viết tắt của JavaScript Object Notation) là một định dạng dữ liệu đơn giản và nhẹ dùng để trao đổi dữ liệu 
+giữa các hệ thống. JSON thường được sử dụng trong các ứng dụng web để gửi và nhận dữ liệu giữa client 
+(trình duyệt) và server. Nó có cấu trúc dễ đọc cho cả con người và máy tính, tương tự như một đối tượng trong 
+JavaScript.

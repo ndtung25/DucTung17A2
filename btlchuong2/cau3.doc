@@ -1,0 +1,9 @@
+Cú pháp của tài liệu XML tuân theo các quy tắc chặt chẽ nhằm đảm bảo tính nhất quán và dễ dàng trao đổi dữ liệu 
+giữa các hệ thống. Dưới đây là các thành phần và quy tắc chính trong cú pháp của một tài liệu XML.
+1. Phần khai báo XML
+Khai báo này xuất hiện ở đầu tài liệu XML để chỉ định phiên bản XML và mã hóa ký tự được sử dụng.
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+version="1.0": Xác định phiên bản XML.
+encoding="UTF-8": Xác định bảng mã ký tự. UTF-8 là mã hóa phổ biến nhất.

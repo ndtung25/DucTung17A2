@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <companyName>Công ty TNHH ABC</companyName>
+    <director>
+        <name>Nguyễn Văn A</name>
+    </director>
+    <address>
+        <street>123 Đường ABC</street>
+        <city>Hà Nội</city>
+        <country>Việt Nam</country>
+    </address>
+    <contact>
+        <phone>0916996666</phone>
+        <email>info@abc.com</email>
+    </contact>
+    <taxCode>0912345678</taxCode>
+</company>

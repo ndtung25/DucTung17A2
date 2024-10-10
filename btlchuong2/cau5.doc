@@ -1,0 +1,11 @@
+JSON chỉ hỗ trợ một số kiểu dữ liệu cơ bản, trong khi Python có nhiều kiểu dữ liệu phức tạp hơn. Khi chuyển đổi 
+giữa JSON và Python, một số kiểu dữ liệu có thể không được hỗ trợ hoặc có thể bị mất thông tin
+
+JSON không hỗ trợ chú thích (comments), điều này khiến cho việc thêm giải thích hoặc ghi chú trực tiếp trong tệp 
+JSON trở nên khó khăn. Trong Python, chú thích rất hữu ích để giải thích mã, nhưng khi làm việc với tệp JSON, bạn 
+không thể chèn thêm thông tin mà không ảnh hưởng đến định dạng của tệp.
+
+Trong JSON, các khóa (key) của đối tượng phải là chuỗi ký tự (strings). Trong Python, khóa của một dictionary có 
+thể là bất kỳ kiểu dữ liệu nào có thể băm được (hashable), ví dụ như số nguyên, tuple, hoặc thậm chí là các đối 
+tượng tùy chỉnh. Khi chuyển đổi từ Python sang JSON, chỉ các khóa chuỗi sẽ được giữ lại, còn các loại khóa khác 
+sẽ gây lỗi hoặc cần được chuyển đổi sang chuỗi.

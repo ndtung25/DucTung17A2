@@ -1,0 +1,4 @@
+XML (viết tắt của eXtensible Markup Language) là một ngôn ngữ đánh dấu được sử dụng để mô tả dữ liệu.
+Nó được thiết kế để lưu trữ và vận chuyển dữ liệu theo cách mà con người và máy tính đều có thể đọc được. 
+XML không quy định các thẻ cụ thể mà cho phép người dùng tự tạo các thẻ riêng dựa trên nhu cầu của mình, 
+nhờ đó có tính "mở rộng" (extensible).
