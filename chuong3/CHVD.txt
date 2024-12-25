@@ -1,0 +1,85 @@
+## 1. NumPy Là Gì và Tại Sao Sử Dụng?
+NumPy (Numerical Python) là thư viện tính toán khoa học quan trọng trong Python, cung cấp hỗ trợ mảng đa chiều và các hàm toán học hiệu quả. Được sử dụng để:
+- Xử lý mảng số học nhanh chóng
+- Thực hiện các phép toán vector và ma trận
+- Hỗ trợ tính toán khoa học và máy học
+
+## 2. Ưu Điểm So Với Các Công Cụ Khác
+- Hiệu suất tính toán cao
+- Giao diện đơn giản và trực quan
+- Tích hợp tốt với các thư viện Python khác
+- Quản lý bộ nhớ hiệu quả
+- Hỗ trợ các phép toán vector hóa
+
+## 3. So Sánh Mảng NumPy và List Python
+- Mảng NumPy: 
+  * Tốc độ xử lý nhanh hơn
+  * Sử dụng bộ nhớ hiệu quả
+  * Hỗ trợ các phép toán số học trực tiếp
+- List Python:
+  * Linh hoạt hơn về kiểu dữ liệu
+  * Chậm hơn trong các phép toán số học
+
+## 4. Ndarray trong NumPy
+Là đối tượng mảng đa chiều cơ bản trong NumPy, lưu trữ các phần tử cùng kiểu dữ liệu, cho phép các phép toán nhanh chóng.
+
+## 5. Cách Tạo Mảng trong NumPy
+```python
+import numpy as np
+
+# Mảng 1D
+arr_1d = np.array([1, 2, 3])
+
+# Mảng 2D
+arr_2d = np.array([[1, 2], [3, 4]])
+
+# Mảng 3D
+arr_3d = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+```
+
+## 6. Xác Định Kiểu Dữ Liệu
+```python
+print(arr.dtype)  # In ra kiểu dữ liệu của mảng
+```
+
+## 7. Đảo Ngược Mảng
+```python
+# Các phương pháp đảo ngược
+reversed_arr = np.flip(arr)
+arr_reversed = arr[::-1]
+```
+
+## 8. So Sánh np.mean() và np.average()
+- `np.mean()`: Trung bình đơn giản
+- `np.average()`: Hỗ trợ trọng số, cho phép tính trung bình có trọng số
+
+## 9. Đếm Tần Suất Giá Trị
+```python
+# Đếm số lần xuất hiện của giá trị dương
+positive_count = np.count_nonzero(arr > 0)
+```
+
+## 10. Kiểm Tra Mảng Trống
+```python
+is_empty = arr.size == 0
+```
+
+## 11. So Sánh arr[:,0] và arr[:,[0]]
+- `arr[:,0]`: Chọn cột đầu tiên (1 chiều)
+- `arr[:,[0]]`: Chọn cột đầu tiên (giữ nguyên 2 chiều)
+
+## 12. Nhân Ma Trận
+```python
+# Phép nhân ma trận
+matrix_product = np.dot(matrix1, matrix2)
+# Hoặc
+matrix_product = matrix1 @ matrix2
+```
+
+## 13. Nối Mảng
+```python
+# Nối theo trục 0 (dọc)
+combined_arr = np.concatenate((arr1, arr2), axis=0)
+# Nối theo trục 1 (ngang)
+combined_arr = np.concatenate((arr1, arr2), axis=1)
+```

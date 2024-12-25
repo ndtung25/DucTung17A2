@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+
+    <student>
+
+        <id>SV001</id>
+
+        <name>Nguyễn Văn A</name>
+
+        <yearOfBirth>2000</yearOfBirth>
+
+        <class>10A1</class>
+
+        <gender>Nam</gender>
+
+    </student>
+
+    <student>
+
+        <id>SV002</id>
+
+        <name>Trần Thị B</name>
+
+        <yearOfBirth>2001</yearOfBirth>
+
+        <class>10A2</class>
+
+        <gender>Nữ</gender>
+
+    </student>
+
+    <student>
+
+        <id>SV003</id>
+
+        <name>Nguyễn Văn C</name>
+
+        <yearOfBirth>2000</yearOfBirth>
+
+        <class>10A1</class>
+
+        <gender>Nam</gender>
+
+    </student>
+
+</students>

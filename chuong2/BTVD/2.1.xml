@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<company>
+
+    <director>Nguyễn Văn A</director>
+
+    <address>Số 123, Đường ABC, Quận X, Thành phố Y</address>
+
+    <phone>0123-456-789</phone>
+
+    <taxID>1234567890</taxID>
+
+</company>
